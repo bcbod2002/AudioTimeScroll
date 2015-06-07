@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0B4BED11B1D555D0005EFBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B4BED01B1D555D0005EFBD /* main.m */; };
+		B0B4BED41B1D555D0005EFBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B4BED31B1D555D0005EFBD /* AppDelegate.m */; };
+		B0B4BED71B1D555D0005EFBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B4BED61B1D555D0005EFBD /* ViewController.m */; };
+		B0B4BEDA1B1D555D0005EFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B4BED81B1D555D0005EFBD /* Main.storyboard */; };
+		B0B4BEDC1B1D555D0005EFBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B4BEDB1B1D555D0005EFBD /* Images.xcassets */; };
+		B0B4BEDF1B1D555D0005EFBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B4BEDD1B1D555D0005EFBD /* LaunchScreen.xib */; };
+		B0B4BEEB1B1D555D0005EFBD /* AudioTimeScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B4BEEA1B1D555D0005EFBD /* AudioTimeScrollTests.m */; };
+		B0B4BEF71B1D559E0005EFBD /* AudioTimeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B4BEF61B1D559E0005EFBD /* AudioTimeScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0B4BEE51B1D555D0005EFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B4BEC31B1D555D0005EFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B4BECA1B1D555D0005EFBD;
+			remoteInfo = AudioTimeScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0B4BECB1B1D555D0005EFBD /* AudioTimeScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioTimeScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B4BECF1B1D555D0005EFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B4BED01B1D555D0005EFBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0B4BED21B1D555D0005EFBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0B4BED31B1D555D0005EFBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0B4BED51B1D555D0005EFBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0B4BED61B1D555D0005EFBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0B4BED91B1D555D0005EFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0B4BEDB1B1D555D0005EFBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0B4BEDE1B1D555D0005EFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0B4BEE41B1D555D0005EFBD /* AudioTimeScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTimeScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B4BEE91B1D555D0005EFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B4BEEA1B1D555D0005EFBD /* AudioTimeScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioTimeScrollTests.m; sourceTree = "<group>"; };
+		B0B4BEF51B1D559E0005EFBD /* AudioTimeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTimeScrollView.h; sourceTree = "<group>"; };
+		B0B4BEF61B1D559E0005EFBD /* AudioTimeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTimeScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0B4BEC81B1D555D0005EFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B4BEE11B1D555D0005EFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0B4BEC21B1D555D0005EFBD = {
+			isa = PBXGroup;
+			children = (
+				B0B4BECD1B1D555D0005EFBD /* AudioTimeScroll */,
+				B0B4BEE71B1D555D0005EFBD /* AudioTimeScrollTests */,
+				B0B4BECC1B1D555D0005EFBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0B4BECC1B1D555D0005EFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4BECB1B1D555D0005EFBD /* AudioTimeScroll.app */,
+				B0B4BEE41B1D555D0005EFBD /* AudioTimeScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0B4BECD1B1D555D0005EFBD /* AudioTimeScroll */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4BEF41B1D557C0005EFBD /* AudioTimeScrollView */,
+				B0B4BED21B1D555D0005EFBD /* AppDelegate.h */,
+				B0B4BED31B1D555D0005EFBD /* AppDelegate.m */,
+				B0B4BED51B1D555D0005EFBD /* ViewController.h */,
+				B0B4BED61B1D555D0005EFBD /* ViewController.m */,
+				B0B4BED81B1D555D0005EFBD /* Main.storyboard */,
+				B0B4BEDB1B1D555D0005EFBD /* Images.xcassets */,
+				B0B4BEDD1B1D555D0005EFBD /* LaunchScreen.xib */,
+				B0B4BECE1B1D555D0005EFBD /* Supporting Files */,
+			);
+			path = AudioTimeScroll;
+			sourceTree = "<group>";
+		};
+		B0B4BECE1B1D555D0005EFBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4BECF1B1D555D0005EFBD /* Info.plist */,
+				B0B4BED01B1D555D0005EFBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0B4BEE71B1D555D0005EFBD /* AudioTimeScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4BEEA1B1D555D0005EFBD /* AudioTimeScrollTests.m */,
+				B0B4BEE81B1D555D0005EFBD /* Supporting Files */,
+			);
+			path = AudioTimeScrollTests;
+			sourceTree = "<group>";
+		};
+		B0B4BEE81B1D555D0005EFBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4BEE91B1D555D0005EFBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0B4BEF41B1D557C0005EFBD /* AudioTimeScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4BEF51B1D559E0005EFBD /* AudioTimeScrollView.h */,
+				B0B4BEF61B1D559E0005EFBD /* AudioTimeScrollView.m */,
+			);
+			path = AudioTimeScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0B4BECA1B1D555D0005EFBD /* AudioTimeScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B4BEEE1B1D555D0005EFBD /* Build configuration list for PBXNativeTarget "AudioTimeScroll" */;
+			buildPhases = (
+				B0B4BEC71B1D555D0005EFBD /* Sources */,
+				B0B4BEC81B1D555D0005EFBD /* Frameworks */,
+				B0B4BEC91B1D555D0005EFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioTimeScroll;
+			productName = AudioTimeScroll;
+			productReference = B0B4BECB1B1D555D0005EFBD /* AudioTimeScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0B4BEE31B1D555D0005EFBD /* AudioTimeScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B4BEF11B1D555D0005EFBD /* Build configuration list for PBXNativeTarget "AudioTimeScrollTests" */;
+			buildPhases = (
+				B0B4BEE01B1D555D0005EFBD /* Sources */,
+				B0B4BEE11B1D555D0005EFBD /* Frameworks */,
+				B0B4BEE21B1D555D0005EFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B4BEE61B1D555D0005EFBD /* PBXTargetDependency */,
+			);
+			name = AudioTimeScrollTests;
+			productName = AudioTimeScrollTests;
+			productReference = B0B4BEE41B1D555D0005EFBD /* AudioTimeScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0B4BEC31B1D555D0005EFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Goston;
+				TargetAttributes = {
+					B0B4BECA1B1D555D0005EFBD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B0B4BEE31B1D555D0005EFBD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B0B4BECA1B1D555D0005EFBD;
+					};
+				};
+			};
+			buildConfigurationList = B0B4BEC61B1D555D0005EFBD /* Build configuration list for PBXProject "AudioTimeScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0B4BEC21B1D555D0005EFBD;
+			productRefGroup = B0B4BECC1B1D555D0005EFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B4BECA1B1D555D0005EFBD /* AudioTimeScroll */,
+				B0B4BEE31B1D555D0005EFBD /* AudioTimeScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0B4BEC91B1D555D0005EFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B4BEDA1B1D555D0005EFBD /* Main.storyboard in Resources */,
+				B0B4BEDF1B1D555D0005EFBD /* LaunchScreen.xib in Resources */,
+				B0B4BEDC1B1D555D0005EFBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B4BEE21B1D555D0005EFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0B4BEC71B1D555D0005EFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B4BED71B1D555D0005EFBD /* ViewController.m in Sources */,
+				B0B4BED41B1D555D0005EFBD /* AppDelegate.m in Sources */,
+				B0B4BED11B1D555D0005EFBD /* main.m in Sources */,
+				B0B4BEF71B1D559E0005EFBD /* AudioTimeScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B4BEE01B1D555D0005EFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B4BEEB1B1D555D0005EFBD /* AudioTimeScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0B4BEE61B1D555D0005EFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B4BECA1B1D555D0005EFBD /* AudioTimeScroll */;
+			targetProxy = B0B4BEE51B1D555D0005EFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0B4BED81B1D555D0005EFBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B4BED91B1D555D0005EFBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0B4BEDD1B1D555D0005EFBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B4BEDE1B1D555D0005EFBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0B4BEEC1B1D555D0005EFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0B4BEED1B1D555D0005EFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0B4BEEF1B1D555D0005EFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioTimeScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0B4BEF01B1D555D0005EFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioTimeScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0B4BEF21B1D555D0005EFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioTimeScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioTimeScroll.app/AudioTimeScroll";
+			};
+			name = Debug;
+		};
+		B0B4BEF31B1D555D0005EFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioTimeScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioTimeScroll.app/AudioTimeScroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0B4BEC61B1D555D0005EFBD /* Build configuration list for PBXProject "AudioTimeScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B4BEEC1B1D555D0005EFBD /* Debug */,
+				B0B4BEED1B1D555D0005EFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B4BEEE1B1D555D0005EFBD /* Build configuration list for PBXNativeTarget "AudioTimeScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B4BEEF1B1D555D0005EFBD /* Debug */,
+				B0B4BEF01B1D555D0005EFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0B4BEF11B1D555D0005EFBD /* Build configuration list for PBXNativeTarget "AudioTimeScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B4BEF21B1D555D0005EFBD /* Debug */,
+				B0B4BEF31B1D555D0005EFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0B4BEC31B1D555D0005EFBD /* Project object */;
+}
